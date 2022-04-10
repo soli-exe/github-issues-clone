@@ -1,0 +1,25 @@
+@import url("./var.css");
+
+.customReactTooltip {
+  border-radius: 6px !important;
+  font-size: 8pt !important;
+  padding: 0.5rem !important;
+  background-color: #6e7680 !important;
+}
+
+.headerCurrentUser {
+  padding: .45rem 1.1rem;
+  cursor: pointer;
+}
+
+.userProfileLink {
+    display: inline-block;
+    color: var(--font-color);
+}
+
+.userStatusContainer {
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
