@@ -150,7 +150,8 @@
 
 }
 
-.page-item {
+.page-item,
+.page-item-btn {
     min-width: 32px;
     padding: 5px 10px;
     font-style: normal;
@@ -186,4 +187,12 @@
 .disabled-link{
     cursor: default !important;
     pointer-events: none !important;
+}
+
+@media (max-width: 544px) {
+    .disabled-item,
+    .disabled-link,
+    .page-item{
+        display: none;
+    }
 }
